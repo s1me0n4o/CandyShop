@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\01.Work\\GitCandy\\CandyShop\\CandyShop\\CandyShop.csproj": {}
+    "E:\\01.Work\\CandySHop\\CandyShop\\CandyShop\\CandyShop.csproj": {}
   },
   "projects": {
-    "E:\\01.Work\\GitCandy\\CandyShop\\CandyShop\\CandyShop.csproj": {
+    "E:\\01.Work\\CandySHop\\CandyShop\\CandyShop\\CandyShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\01.Work\\GitCandy\\CandyShop\\CandyShop\\CandyShop.csproj",
+        "projectUniqueName": "E:\\01.Work\\CandySHop\\CandyShop\\CandyShop\\CandyShop.csproj",
         "projectName": "CandyShop",
-        "projectPath": "E:\\01.Work\\GitCandy\\CandyShop\\CandyShop\\CandyShop.csproj",
+        "projectPath": "E:\\01.Work\\CandySHop\\CandyShop\\CandyShop\\CandyShop.csproj",
         "packagesPath": "C:\\Users\\Monko\\.nuget\\packages\\",
-        "outputPath": "E:\\01.Work\\GitCandy\\CandyShop\\CandyShop\\obj\\",
+        "outputPath": "E:\\01.Work\\CandySHop\\CandyShop\\CandyShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,18 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
