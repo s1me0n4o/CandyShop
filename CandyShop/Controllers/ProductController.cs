@@ -30,5 +30,14 @@ namespace CandyShop.Controllers
             return View(plvm);
         }
         
+        public IActionResult Details(int id)
+        {
+            var product = _productRepo.GetProductById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
+        }
     }
 }

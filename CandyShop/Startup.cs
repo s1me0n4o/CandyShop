@@ -42,6 +42,7 @@ namespace CandyShop
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+             
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

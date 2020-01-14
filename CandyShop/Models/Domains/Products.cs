@@ -19,5 +19,7 @@ namespace CandyShop.Domains.Models
         public bool IsProductOfTheWeek { get; set; }
         public string AllergyInformation { get; set; }
         public Category Category { get; set; }
+        public string Notes { get; set; }
+
     }
 }
