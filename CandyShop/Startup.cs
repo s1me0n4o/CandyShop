@@ -29,6 +29,11 @@ namespace CandyShop
             services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(_config.GetConnectionString("DefaultConnection")));
             services.AddScoped<IProductRepo, ProductRepo>();
             services.AddScoped<ICategoryRepo, CategoryRepo>();
+
+            services.AddScoped <ShopingCardRepo>(sp => ShopingCardRepo.GetCard(sp));
+            services.AddHttpContextAccessor();
+            services.AddSession();
+
             services.AddControllersWithViews();
         }
 
@@ -42,7 +47,8 @@ namespace CandyShop
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-             
+            app.UseSession(); 
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
