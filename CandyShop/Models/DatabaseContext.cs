@@ -1,4 +1,5 @@
 ﻿using CandyShop.Domains.Models;
+using CandyShop.Models.Domains;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,8 @@ namespace CandyShop.Models
 
         public DbSet<Products> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<ShopingCard> ShopingCardItems { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

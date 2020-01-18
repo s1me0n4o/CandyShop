@@ -26,8 +26,15 @@ using CandyShop.Domains.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Projects\CandyShop\CandyShop\Views\_ViewImports.cshtml"
+using CandyShop.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a8c36a940fc0c10d013a8eadb2feb06f5485b38f", @"/Views/Product/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e3b6029c3066561690b24a8c394db520421bf79c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"863273cac45e500ee9293b8d69fd0a51f269ec9b", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Products>
     {
         #pragma warning disable 1998
