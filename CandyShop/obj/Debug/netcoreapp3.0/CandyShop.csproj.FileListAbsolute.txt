@@ -211,3 +211,4 @@ D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Product\Deta
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ProductCard.cshtml.g.cs
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Carousel.cshtml.g.cs
+D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\ShopingCard\Index.cshtml.g.cs

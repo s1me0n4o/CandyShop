@@ -10,5 +10,12 @@ namespace CandyShop.Models.Interfaces
     public interface IShopingRepo
     {
         void AddToCard(Products products, int amount);
+        decimal GetTotalShopingCards();
+
+        void ClearCard();
+
+        List<ShopingCard> GetShopingCards();
+        int RemoveFromCard(Products product);
+
     }
 }

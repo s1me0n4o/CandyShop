@@ -80,9 +80,12 @@ namespace CandyShop.Models
 
         public List<ShopingCard> GetShopingCards()
         {
+            //shopingCardsItems are empty TODO check.
             return ShopingCards ?? 
-                            (ShopingCards = _databaseContext.ShopingCardItems.Where(c => c.ShopingCardKey == _shoppingCardIdKey)
-                                .Include(s => s.Products).ToList());
+                         (ShopingCards = 
+                            _databaseContext.ShopingCardItems.Where(c => c.ShopingCardKey == _shoppingCardIdKey)
+                                .Include(s => s.Products)
+                                .ToList());
         }
 
         public void ClearCard()

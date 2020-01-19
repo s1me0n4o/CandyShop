@@ -28,7 +28,7 @@ namespace CandyShop.Models
             modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 2, CategoryName = "Cheese cakes" });
             modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 3, CategoryName = "Seasonal pies" });
 
-            //seed pies
+            //seed products
 
             modelBuilder.Entity<Products>().HasData(new Products
             {
