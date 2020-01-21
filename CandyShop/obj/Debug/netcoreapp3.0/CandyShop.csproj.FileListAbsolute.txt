@@ -214,3 +214,4 @@ D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Caro
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\ShopingCard\Index.cshtml.g.cs
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Components\ShoppingCardComponents\Default.cshtml.g.cs
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
+D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Contact\Index.cshtml.g.cs

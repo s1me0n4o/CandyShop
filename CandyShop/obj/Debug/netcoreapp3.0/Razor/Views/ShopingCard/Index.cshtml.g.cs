@@ -34,7 +34,7 @@ using CandyShop.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6b6ddb4cf6ae6cee234cfe0ded9256e87f774491", @"/Views/ShopingCard/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"863273cac45e500ee9293b8d69fd0a51f269ec9b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"439fb9b6d3f1bb5c4d0369efc77b05bb4f399990", @"/Views/_ViewImports.cshtml")]
     public class Views_ShopingCard_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ShopingCardViewModel>
     {
         #pragma warning disable 1998
