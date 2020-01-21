@@ -27,10 +27,12 @@ namespace CandyShop
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(_config.GetConnectionString("DefaultConnection")));
+           
             services.AddScoped<IProductRepo, ProductRepo>();
             services.AddScoped<ICategoryRepo, CategoryRepo>();
 
-            services.AddScoped <ShopingCardRepo>(sp => ShopingCardRepo.GetCard(sp));
+            services.AddScoped<ShopingCardRepo>(sp => ShopingCardRepo.GetCard(sp));
+
             services.AddHttpContextAccessor();
             services.AddSession();
 

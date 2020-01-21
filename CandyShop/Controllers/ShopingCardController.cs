@@ -32,12 +32,12 @@ namespace CandyShop.Controllers
                 ShopingCard = _shopingRepo,
                 ShopingCardTotal = _shopingRepo.GetTotalShopingCards()
             };
-            return View();
+            return View(shopingCardViewModel);
         }
 
-        public RedirectToActionResult AddToShopingCard(int productId)
+        public RedirectToActionResult AddToShopingCard(int id)
         {
-            var selectedProduct = _productRepo.GetProductById(productId);
+            var selectedProduct = _productRepo.GetProductById(id);
             //var selectedProduct = _productRepo.AllProducts.FirstOrDefault(p => p.Id == productId);
 
             if (selectedProduct != null)
@@ -48,9 +48,9 @@ namespace CandyShop.Controllers
             return RedirectToAction("Index");
         }
 
-        public RedirectToActionResult RemoveFromShopingCard(int productId)
+        public RedirectToActionResult RemoveFromShopingCard(int id)
         {
-            var selectedProduct = _productRepo.AllProducts.FirstOrDefault(p => p.Id == productId);
+            var selectedProduct = _productRepo.AllProducts.FirstOrDefault(p => p.Id == id);
 
             if (selectedProduct != null)
             {

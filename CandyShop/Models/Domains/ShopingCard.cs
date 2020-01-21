@@ -11,6 +11,6 @@ namespace CandyShop.Models.Domains
         public int Id { get; set; }
         public Products Products { get; set; }
         public int AmountOfProducts { get; set; }
-        public string ShopingCardKey { get; set; }
+        public string ShopingCardId { get; set; }
     }
 }

@@ -2,19 +2,19 @@
 
     <h2>Your shopping card</h2>
     <h4>Products in your shopping cards</h4>
-    <table>
+    <table class="table table-striped">
         <thead>
             <tr>
-                <th>Selected amount</th>
-                <th>Product</th>
-                <th class="text-right">Price</th>
-                <th class="text-right">Subtotal</th>
+                <th scope="col">Selected amount</th>
+                <th scope="col">Product</th>
+                <th scope="col" class="text-right">Price</th>
+                <th scope="col" class="text-right">Subtotal</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model.ShopingCard.ShopingCards)
             {
-                <tr>
+                <tr scope="row">
                     <td class="text-center">@item.AmountOfProducts</td>
                     <td class="text-left">@item.Products.Name</td>
                     <td class="text-right">@item.Products.Price.ToString("c")</td>
@@ -24,8 +24,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="3" class="text-right">Total:</td>
-                <td class="text-right">@Model.ShopingCard.ToString():</td>
+                <th colspan="3" class="text-right">Total:</th>
+                <td class="text-right">@Model.ShopingCard.GetTotalShopingCards().ToString("c")</td>
             </tr>
         </tfoot>
     </table>
