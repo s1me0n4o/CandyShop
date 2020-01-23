@@ -34,8 +34,8 @@ namespace CandyShop.Models.Domains
 
         [Required(ErrorMessage = "Please enter your ZIP Code")]
         [Display(Name = "Zip Code")]
-        [StringLength(10, MinimumLength =4)]
-        public string ZipCode { get; set; }
+        [StringLength(10, MinimumLength = 4)]
+        public string ZipCode { get; set; } = "0000";
         
         [StringLength(50)]
         public string State { get; set; }

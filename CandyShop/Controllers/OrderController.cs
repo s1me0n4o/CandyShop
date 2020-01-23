@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using CandyShop.Models;
 using CandyShop.Models.Domains;
 using CandyShop.Models.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace CandyShop.Controllers
 {
+    [Authorize]
     public class OrderController : Controller
     {
         private IOrderRepo _orderRepo;
@@ -33,6 +35,7 @@ namespace CandyShop.Controllers
         [HttpPost]
         public IActionResult CheckOut(Order order)
         {
+            
             var items = _shopingRepo.GetShopingCards();
             _shopingRepo.ShopingCards = items;
             if (_shopingRepo.ShopingCards.Count == 0)

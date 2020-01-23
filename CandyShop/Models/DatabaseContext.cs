@@ -1,5 +1,7 @@
 ﻿using CandyShop.Domains.Models;
 using CandyShop.Models.Domains;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CandyShop.Models
 {
-    public class DatabaseContext : DbContext
+    public class DatabaseContext : IdentityDbContext<IdentityUser>
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
         {
