@@ -23,6 +23,11 @@ namespace CandyShop.Models
             _databaseContext = databaseContext;
         }
 
+        public List<ShopingCard> GetListOfShopingCards()
+        {
+            return this.ShopingCards;
+        }
+
         public static ShopingCardRepo GetCard(IServiceProvider services)
         {
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
@@ -83,13 +88,6 @@ namespace CandyShop.Models
 
         public List<ShopingCard> GetShopingCards()
         {
-            //shopingCardsItems are empty TODO check.
-            //return ShopingCards ?? 
-            //             (ShopingCards = 
-            //                _databaseContext.ShopingCard.Where(c => c.ShopingCardId == ShoppingCardId)
-            //                    .Include(s => s.Products)
-            //                    .ToList());
-
             if (ShopingCards.Count == 0 || ShopingCards == null)
             {
                 ShopingCards = _databaseContext.ShopingCard.Where(c => c.ShopingCardId == ShoppingCardId).Include(s => s.Products).ToList();

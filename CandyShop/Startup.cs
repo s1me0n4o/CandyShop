@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CandyShop.Models;
+using CandyShop.Models.Domains;
 using CandyShop.Models.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,6 +31,8 @@ namespace CandyShop
            
             services.AddScoped<IProductRepo, ProductRepo>();
             services.AddScoped<ICategoryRepo, CategoryRepo>();
+            services.AddScoped<IShopingRepo, ShopingCardRepo>();
+            services.AddScoped<IOrderRepo, OrderRepo>();
 
             services.AddScoped<ShopingCardRepo>(sp => ShopingCardRepo.GetCard(sp));
 

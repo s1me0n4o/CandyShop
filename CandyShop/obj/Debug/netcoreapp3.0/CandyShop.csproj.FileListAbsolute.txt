@@ -206,7 +206,6 @@ D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysi
 D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\CandyShop.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Product\Details.cshtml.g.cs
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ProductCard.cshtml.g.cs
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
@@ -215,3 +214,10 @@ D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\ShopingCard\
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Components\ShoppingCardComponents\Default.cshtml.g.cs
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
 D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Contact\Index.cshtml.g.cs
+D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Order\CheckOut.cshtml.g.cs
+D:\Projects\CandyShop\CandyShop\obj\Debug\netcoreapp3.0\Razor\Views\Order\CheckOutComplete.cshtml.g.cs
+D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\CandyShop\CandyShop\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.dll

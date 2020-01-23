@@ -28,13 +28,20 @@ using CandyShop.Domains.Models;
 #nullable disable
 #nullable restore
 #line 3 "D:\Projects\CandyShop\CandyShop\Views\_ViewImports.cshtml"
+using CandyShop.Models.Domains;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "D:\Projects\CandyShop\CandyShop\Views\_ViewImports.cshtml"
 using CandyShop.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9a5d6489a1946bb3e45e3240895f21e4e019b0b5", @"/Views/Contact/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"439fb9b6d3f1bb5c4d0369efc77b05bb4f399990", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"edb6a07e8cb93dcf99b012dae0d9f01c588fe30a", @"/Views/_ViewImports.cshtml")]
     public class Views_Contact_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("address", "s1me0n4o@abv.bg", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -64,7 +71,7 @@ using CandyShop.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n\r\n    <h2>Click the below link to contact us</h2>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a5d6489a1946bb3e45e3240895f21e4e019b0b53822", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a5d6489a1946bb3e45e3240895f21e4e019b0b53993", async() => {
             }
             );
             __CandyShop_TagHelpers_EmailTagHelper = CreateTagHelper<global::CandyShop.TagHelpers.EmailTagHelper>();

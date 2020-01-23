@@ -16,6 +16,6 @@ namespace CandyShop.Models.Interfaces
 
         List<ShopingCard> GetShopingCards();
         int RemoveFromCard(Products product);
-
+        List<ShopingCard> GetListOfShopingCards();
     }
 }

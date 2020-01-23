@@ -28,13 +28,20 @@ using CandyShop.Domains.Models;
 #nullable disable
 #nullable restore
 #line 3 "D:\Projects\CandyShop\CandyShop\Views\_ViewImports.cshtml"
+using CandyShop.Models.Domains;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "D:\Projects\CandyShop\CandyShop\Views\_ViewImports.cshtml"
 using CandyShop.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d6cc0d17dd39e32649ed8b83665fbba27c54d46", @"/Views/Shared/Components/CategoryMenu/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"439fb9b6d3f1bb5c4d0369efc77b05bb4f399990", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"edb6a07e8cb93dcf99b012dae0d9f01c588fe30a", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_CategoryMenu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Category>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Product", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -68,7 +75,7 @@ using CandyShop.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n<li class=\"dropdown\">\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d6cc0d17dd39e32649ed8b83665fbba27c54d465287", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d6cc0d17dd39e32649ed8b83665fbba27c54d465458", async() => {
                 WriteLiteral("\r\n        Products\r\n        <b class=\"caret\"></b>\r\n    ");
             }
             );
@@ -97,7 +104,7 @@ using CandyShop.Models;
 #line hidden
 #nullable disable
             WriteLiteral("            <li>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d6cc0d17dd39e32649ed8b83665fbba27c54d467192", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d6cc0d17dd39e32649ed8b83665fbba27c54d467363", async() => {
                 WriteLiteral("\r\n                    ");
 #nullable restore
 #line 17 "D:\Projects\CandyShop\CandyShop\Views\Shared\Components\CategoryMenu\Default.cshtml"
@@ -146,7 +153,7 @@ using CandyShop.Models;
 #line hidden
 #nullable disable
             WriteLiteral("        <li class=\"divider\"></li>\r\n        <li>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d6cc0d17dd39e32649ed8b83665fbba27c54d4610156", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d6cc0d17dd39e32649ed8b83665fbba27c54d4610327", async() => {
                 WriteLiteral("\r\n                View all products\r\n            ");
             }
             );
